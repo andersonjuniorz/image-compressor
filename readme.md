@@ -1,7 +1,9 @@
 # Image Compressor
 
-![Image Compressor](docs/screenshot.png)
+<img width="1365" height="626" alt="image" src="https://github.com/user-attachments/assets/f7821671-a62b-4cd1-8e25-63b978656726" />
 
+
+     
 A batch image compressor with a graphical interface, written in Python. Choose a folder, adjust the settings, and the compressed images are saved in a separate folder, keeping the original subfolder structure.
 
 ## Table of Contents
@@ -76,7 +78,7 @@ The output format is always the same as the input. Files with other extensions a
 ### Quick start
 
 ```bash
-git clone https://github.com/seu-usuario/image-compressor.git
+git clone https://github.com/andersonjuniorz/image-compressor.git
 cd image-compressor
 
 make install
@@ -95,9 +97,9 @@ pip install -r requirements.txt
 ### Dependencies (`requirements.txt`)
 
 ```text
-PySide6>=6.6
-pillow>=11.2
-pillow-jxl-plugin
+PySide6==6.12.0
+pillow==13.0.0
+pillow-jxl-plugin==1.3.8
 ```
 
 ### Optional: high-quality PNG quantization
@@ -295,6 +297,5 @@ The license has not been chosen yet. Common options are MIT, for maximum freedom
 **Note:** `imagequant` (used by Pillow when it is built with `libimagequant`) is licensed under GPL-3.0 or a commercial license. Check this dependency before choosing a permissive license.
 
 ## Credits
-
-- Developed by **Tobi**.
+- Developed by **Andersonjuniorz**.
 - Architecture, code, and documentation developed with the help of **Claude** (Anthropic), which assisted with planning, writing the code, and this README.
